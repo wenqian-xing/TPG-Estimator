@@ -1,5 +1,5 @@
 n_cars: 300
-k: 1000
+k: 100
 batch_size: 100
 p: 0.5
 seed: 42
