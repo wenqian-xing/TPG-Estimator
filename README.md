@@ -1,4 +1,4 @@
-# Estimation of treatment effects under nonstationarity via truncated difference-in-Q’s
+# Estimation of treatment effects under nonstationarity via the truncated Policy Gradient Estimator
 
 This repository contains three Jupyter notebooks for running the simulations in the paper.
 
@@ -37,18 +37,18 @@ The notbook `ride_sharing.ipynb` requires simulation data generated from a large
 ### 1. `2_state_MDP.ipynb`
 This notebook simulates a nonstationary 2-state Markov Decision Process (MDP). It includes:
 - Simulating the state trajectories
-- Evaluating the estimation under the truncated DQ estimator
+- Evaluating the estimation under the TPG estimator
 
 ### 2. `nonstat_queue.ipynb`
 This notebook simulates a non-stationary queueing system. It includes:
 - Reading data from `data0.csv`
 - Simulating the queueing dynamics
-- Evaluating the estimation under the truncated DQ estimator and other baseline estimators
+- Evaluating the estimation under the TPG estimator and other baseline estimators
 
 ### 3. `ride_sharing.ipynb`
 This notebook analyzes the NYC ride-sharing simulation results. It includes:
 - Reading data from `output/pure-A`, `output/pure-B`, `output/switchback`
-- Evaluating the estimation under the truncated DQ estimator and other baseline estimators
+- Evaluating the estimation under the TPG estimator and other baseline estimators
 
 ## Requirements
 
@@ -59,6 +59,7 @@ pip install -r requirements.txt
 ```
 
 The additional dependencies needed to run the ride-sharing simulator are listed in `RideSim.md`.
+
 
 ## Acknowledgment
 
