@@ -1,4 +1,4 @@
-# Estimation of treatment effects under nonstationarity via the truncated Policy Gradient Estimator
+# Estimation of treatment effects under nonstationarity via the Truncated Policy Gradient Estimator
 
 This repository contains three Jupyter notebooks for running the simulations in the paper.
 
